@@ -1,0 +1,106 @@
+.container{
+    background-color: #121D42;
+    height: 80vh;
+    color: #fff;
+    text-align: center;
+}
+
+.loginContainer{
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.loginContainer h2{
+    margin-bottom: 10px;
+}
+
+.loginContainer h3{
+    color: #D4605D;
+}
+
+.imgArea img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.formArea{
+    margin-bottom: 40px;
+}
+.formArea h5{
+    margin-bottom: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form input{
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.form a{
+    color: #fff;
+    text-decoration: none;
+    background-color: #D4605D;
+    width: 70px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    align-self: center;
+    transtion: .3s;
+}
+.form a:hover{
+    opacity: .8;
+}
+
+
+@media(min-width: 771px){
+
+    .loginContainer{
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        
+    }
+    .loginContainer h2{
+        font-size: 2rem;
+    }
+    .loginContainer h3{
+        font-size: 1.7rem;
+    }
+    .loginTitles{
+        margin-bottom: 30px;
+    }
+
+    .loginContent{
+        display: flex;
+        align-items: center;
+        gap: 60px;
+    }
+}
+
+
+@media(min-width: 1053px){
+    .imgArea img{
+        width: 500px;
+        
+    }
+    .formArea{
+        width: 400px;
+    }
+    .formArea h5{
+        font-size: 1.8rem;
+    }
+    .form input{
+        padding: 13px;
+    }
+}

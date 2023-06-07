@@ -1,0 +1,147 @@
+.container{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 60px;
+    z-index: 2;
+}
+
+.headerContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    position: fixed;
+    background-color: #fff;
+    padding: 0px 20px 0 20px;
+    top: 0;
+    height: 60px;
+    z-index: 2;
+}
+
+.logo img{
+    max-width: 150px;
+    height: auto;
+}
+
+.headerButtons{
+    display: flex;
+    gap: 25px;
+    font-size: 1.5rem;
+    color: #ff2c2c;
+    align-items: center;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.socials a{
+    color: #ff2c2c;
+}
+
+.menuButton{
+    cursor: pointer;
+}
+
+
+.menu{
+    position: fixed;
+    height: 100vh;
+    width: 300px;
+    background-color: #00247A;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transition: .5s;
+    z-index: 3;
+}
+
+.closeMenu{
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-weight: bold;
+}
+
+.menuNav{
+    margin-top: 65px;
+    padding-left: 50px;
+}
+
+.menuList{
+    list-style: none;
+}
+
+.menuItem{
+    margin-bottom: 30px;
+}
+
+.menuItem a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.menuItem a:hover{
+    color: #ff2c2c;
+}
+
+.menuItem .active{
+    color: #ff2c2c;
+}
+
+
+.headerButton{
+    color: #fff;
+    background-color: #ff2c2c;
+    border: none;
+    padding: 8px;
+    display: none;
+    text-transform: uppercase;
+}
+
+@media(min-width: 771px){
+    .container{
+        width: 100vw;
+        height: 90px;
+        position: fixed;
+    }
+
+    .headerContent{
+        height: 90px;
+        margin: 0 auto;
+        max-width: 1151px;
+    }
+
+    .headerButton{
+        display: block;
+    }
+
+    .menuButton{
+        font-size: 3rem;
+    }
+    
+}
+
+@media(min-width: 1030px){
+    .socials{
+        gap: 30px;
+    }
+
+    .logo img{
+        max-width: 250px;
+    }
+
+    .headerContent{
+        padding: 0;
+    }
+}

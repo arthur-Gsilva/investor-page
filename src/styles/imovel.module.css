@@ -1,0 +1,242 @@
+
+
+.immobileInfo{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #121D42;
+    padding-top: 3px;
+}
+
+
+.banner{
+    flex: 1;
+    background-image: url('/images/imovel.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.bannerInfo{
+    background-color: rgba(0, 0, 0, .5);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.bannerInfo p{
+    color: #fff;
+    transform: translateY(80px);
+}
+
+.bannerInfo h1{
+    text-align: center;
+    color: #D4605D;
+}
+
+.timeline{
+    flex: 1;
+}
+
+.timelineContent{
+    padding: 20px;
+}
+
+.times h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.time{
+    color: #D4605D;
+    margin-bottom: 15px;
+}
+
+.time span{
+    color: #fff;
+}
+
+.timeObservation{
+    color: #D4605D;
+    
+}
+
+/* CONSTRUCTIONS */
+
+.constructions{
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.constructionsContent h3{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.constructionsProgress{
+    display: grid;
+    gap: 20px;
+}
+
+
+
+/* IMAGES */
+
+
+.immobileImages{
+    background-color: #121D42;
+    padding: 30px 0;
+}
+
+.imagesContent{
+    padding: 0 20px;
+}
+
+.imagesContent h3{
+    margin-bottom: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+  
+.slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+
+/* PROJECTS */
+
+.projects{
+    padding: 30px 0;
+}
+
+.projectsContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.projectsContent h3{
+    margin-bottom: 30px;
+}
+
+
+
+/* FINACE */
+
+.finance{
+    background-color: #121D42;
+    color: #fff;
+    padding: 60px;
+}
+
+.financeContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.financeContent p{
+    margin-bottom: 40px;
+}
+
+/* TABLE */
+
+.tableContainer p{
+    margin-bottom: 20px;
+    color: #D4605D;
+}
+
+.table{
+    overflow-x: auto;
+}
+
+
+/* DOCUMENTS */
+
+.payment{
+    padding: 60px 0;
+}
+
+.paymentContent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.documentsArea{
+    padding: 30px 0;
+}
+
+/* MEDIAS  */
+
+@media(min-width: 771px){
+    .constructionsProgress{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 40px;
+    }
+
+    .constructionsContent h3{
+        font-size: 1.7rem;
+    }
+}
+
+@media(min-width: 1030px){
+    .timeline{
+        max-width: 1151px;
+        margin: 0 auto;
+    }
+
+    .times h3{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    .constructionsProgress{
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 50px;
+    }
+
+    .immobileImages{
+        padding: 50px 0;
+    }
+    .imagesContent{
+        max-width: 1151px;
+        margin: 0 auto;
+    }
+    .imagesContent h3{
+        font-size: 1.7rem;
+    }
+
+    
+
+    .projectsContent h3{
+        font-size: 1.7rem;
+    }
+    .financeContent h3{
+        font-size: 1.7rem;
+    }
+
+}

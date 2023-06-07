@@ -1,0 +1,22 @@
+.container{
+    border-collapse: collapse;
+}
+
+.container th,
+.container td{
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.container th{
+    background-color: #D4605D;
+}
+
+.container tr{
+    background-color: #cac0c0;
+}
+
+.container tr:nth-child(2n){
+    background-color: transparent;
+}

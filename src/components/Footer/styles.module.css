@@ -1,0 +1,129 @@
+.container{
+    background-color: #031843;
+    width: 100%;
+}
+
+.footerContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 15px;
+    color: #fff;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footerSocial{
+    font-weight: bold;
+    line-height: 130%;
+    margin-bottom: 30px;
+}
+
+.socialLinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.socialLinks a{
+    color: #ff2c2c;
+    font-size: 1.6rem;
+}
+
+.socialText{
+    margin-top: 25px;
+}
+
+
+
+
+.footerReservations h5{
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+.footerContact h6{
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.contact{
+    margin-bottom: 20px;
+}
+
+.contactIcon{
+    color: #ff2c2c;
+    font-size: 1.9rem;
+    margin-bottom: 10px;
+}
+
+
+.footerLogo{
+    margin-top: 40px;
+}
+
+.creator{
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+@media(min-width: 771px){
+    .footerContent{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+
+    .footerSocial{
+        text-align: left;
+    }
+
+    .socialLinks{
+        justify-content: flex-start;
+    }
+
+    .footerReservations h5{
+        text-align: left;
+    }
+
+    .footerContact h6{
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .contact{
+        display: flex;
+        align-items: center;
+    }
+
+    .contactIcon{
+        font-size: 1.2rem;
+        margin-top: 12px;
+        margin-right: 10px;
+    }
+
+
+    .footerLogo img{
+        width: 180px;
+    }
+}
+
+@media(min-width: 1030px){
+    .footerContent{
+        max-width: 1151px;
+    }
+
+    .footerLogo img{
+        width: 250px;
+    }
+
+    .contactIcon{
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,18 @@
+.bar{
+    width: 300px;
+    height: 8px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.barValue{
+    height: 8px;
+    background-color: #D4605D;
+    border-radius: 5px;
+}
+
+.progressName{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}

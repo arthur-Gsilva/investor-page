@@ -1,0 +1,10 @@
+.container{
+    position: relative;
+    overflow: hidden;
+}
+
+@media(min-width: 771px){
+    .main{
+        margin-top: 90px;
+    }
+}

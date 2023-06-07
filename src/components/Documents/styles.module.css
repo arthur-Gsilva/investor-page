@@ -1,0 +1,38 @@
+.container{
+    padding: 0 20px;
+    
+}
+
+.container h3{
+    margin-bottom: 30px;
+}
+
+.downloadArea{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 60px;
+}
+.downloadItem p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.downloadItem p:hover{
+    color: #D4605D;
+}
+
+
+@media(min-width: 1053px){
+    .container{
+        max-width: 1151px;
+        margin: 0 auto;
+    }
+    .container h3{
+        font-size: 1.7rem;
+    }
+    .downloadArea{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
