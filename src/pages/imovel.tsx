@@ -209,6 +209,7 @@ const Login = () => {
                 <div className={styles.documents}>
                     <div className={styles.documentsArea}>
                         <Documents title={'Documentos do empreendimento'}/>
+                        <Documents title={'Downloads'}/>
                     </div>
                 </div>
             </div>
