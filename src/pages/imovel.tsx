@@ -209,11 +209,6 @@ const Login = () => {
                 <div className={styles.documents}>
                     <div className={styles.documentsArea}>
                         <Documents title={'Documentos do empreendimento'}/>
-                        <Documents title={'CNPJ'}/>
-                        <Documents title={'Contrato Social'}/>
-                        <Documents title={'Memorial Descritivo'}/>
-                        <Documents title={'Escritura Pública'}/>
-                        <Documents title={'Certidão de Matrícula'}/>
                     </div>
                 </div>
             </div>

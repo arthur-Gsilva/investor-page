@@ -23,13 +23,31 @@ export const Documents = ({ title }: Props) => {
                     <div className={styles.downloadItem}>
                         <p>
                             <ImDownload3 />
-                            <span>Projeto Arquitetônico</span>
+                            <span>CNPJ</span>
                         </p>
                     </div>
                     <div className={styles.downloadItem}>
                         <p>
                             <ImDownload3 />
-                            <span>Projeto Topográfico</span>
+                            <span>Contrato Social</span>
+                        </p>
+                    </div>
+                    <div className={styles.downloadItem}>
+                        <p>
+                            <ImDownload3 />
+                            <span>Memorial Descritivo</span>
+                        </p>
+                    </div>
+                    <div className={styles.downloadItem}>
+                        <p>
+                            <ImDownload3 />
+                            <span>Escritura pública</span>
+                        </p>
+                    </div>
+                    <div className={styles.downloadItem}>
+                        <p>
+                            <ImDownload3 />
+                            <span>Certidão de Matrícula</span>
                         </p>
                     </div>
                 </div>
