@@ -4,7 +4,11 @@ import { useState } from 'react'
 import { ImDownload3 } from 'react-icons/im'
 import { AiOutlinePlus } from 'react-icons/ai'
 
-export const Extract = () => {
+type Props = {
+    title: string
+}
+
+export const Extract = ({ title } : Props) => {
 
     const [open, setOpen] = useState(false)
     const [open2, setOpen2] = useState(false)
@@ -20,7 +24,7 @@ export const Extract = () => {
 
     return(
         <div className={styles.container}>
-            <h3>Extratos</h3>
+            <h3>{title}</h3>
 
             <div className={styles.paymentYear} onClick={toggleOpen}>
                 <AiOutlinePlus /> 2022

@@ -201,8 +201,8 @@ const Login = () => {
 
                 <div className={styles.payment}>
                     <div className={styles.paymentContent}>
-                        <Extract />
-                        <Extract />
+                        <Extract title={"Extratos de Pagamentos da Unidade"}/>
+                        <Extract title={"Extratos de Informativos Mensais"}/>
                     </div>
                 </div>
 

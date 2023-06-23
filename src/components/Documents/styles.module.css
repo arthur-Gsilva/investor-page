@@ -3,15 +3,22 @@
     
 }
 
-.container h3{
+.container details{
     margin-bottom: 30px;
+    transition: .3s;
+}
+
+.container summary{
+    margin-bottom: 25px;
+    cursor: pointer;
+    font-size: 1.5rem;
 }
 
 .downloadArea{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    margin-bottom: 60px;
+    row-gap: 30px;
 }
 .downloadItem p {
     display: flex;

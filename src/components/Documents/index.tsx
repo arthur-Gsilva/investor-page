@@ -9,9 +9,11 @@ type Props = {
 export const Documents = ({ title }: Props) => {
     return(
         <div className={styles.container}>
-            <h3>{title}</h3>
 
-            <div className={styles.downloadArea}>
+            <details>
+                <summary>{title}</summary>
+
+                <div className={styles.downloadArea}>
                 <div className={styles.downloadItem}>
                     <p>
                         <ImDownload3 />
@@ -49,6 +51,9 @@ export const Documents = ({ title }: Props) => {
                     </p>
                 </div>
             </div>
+            </details>
+
+
         </div>
     )
 }
