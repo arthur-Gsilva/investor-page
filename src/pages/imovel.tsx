@@ -8,9 +8,6 @@ import { ProjectItem } from '@/components/ProjectItem'
 import { FinanceTable } from '@/components/FinanceTable'
 import { Extract } from '@/components/Extract'
 import { Documents } from '@/components/Documents'
-import { GetServerSideProps } from 'next'
-import { getServerSession } from 'next-auth'
-import { authOptions } from './api/auth/[...nextauth]'
 
 
 const Login = () => {
@@ -205,7 +202,7 @@ const Login = () => {
                 <div className={styles.payment}>
                     <div className={styles.paymentContent}>
                         <Extract title={"Extratos de Pagamentos da Unidade"}/>
-                        <Extract title={"Extratos de Informativos Mensais"}/>
+                        <Extract title={"Informativos Mensais"}/>
                     </div>
                 </div>
 

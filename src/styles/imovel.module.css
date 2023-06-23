@@ -1,4 +1,8 @@
 
+.container h3{
+    font-size: 2rem !important;
+    margin-bottom: 40px !important;
+}
 
 .immobileInfo{
     min-height: 100vh;
