@@ -63,51 +63,30 @@ const Login = () => {
                     </div>
                 </div>
 
+                <div className={styles.projects}>
+                    <div className={styles.projectsContent}>
+                        <h3>Projetos e aprovações</h3>
 
-                <div className={styles.constructions}>
-                    <div className={styles.constructionsContent}>
-                        <h3>Andamento da Obra</h3>
-
-                        <div className={styles.constructionsProgress}>
-                            <ProgressBar 
-                                title= {'PROJETOS'}
-                                progress={35}
+                        <div className={styles.projectsItems}>
+                            <ProjectItem 
+                                status={true}
                             />
-                            <ProgressBar 
-                                title= {'SERVIÇOS INICIAIS'}
-                                progress={70}
+                            <ProjectItem 
+                                status={true}
                             />
-                            <ProgressBar 
-                                title= {'ESCAVAÇÕES'}
-                                progress={40}
+                            <ProjectItem 
+                                status={true}
                             />
-                            <ProgressBar 
-                                title= {'REBOCO'}
-                                progress={80}
+                            <ProjectItem 
+                                status={false}
                             />
-                            <ProgressBar 
-                                title= {'CONTRAPISO'}
-                                progress={0}
-                            />
-                            <ProgressBar 
-                                title= {'ESQUADRIAS'}
-                                progress={5}
-                            />
-                            <ProgressBar 
-                                title= {'COBERTURAS'}
-                                progress={50}
-                            />
-                            <ProgressBar 
-                                title= {'PAVIMENTAÇÃO'}
-                                progress={1}
-                            />
-                            <ProgressBar 
-                                title= {'LIMPEZA'}
-                                progress={20}
+                            <ProjectItem 
+                                status={false}
                             />
                         </div>
                     </div>
                 </div>
+               
 
                 <div className={styles.immobileImages}>
                     <div className={styles.imagesContent}>
@@ -159,26 +138,46 @@ const Login = () => {
                     
                 </div>
 
+                <div className={styles.constructions}>
+                    <div className={styles.constructionsContent}>
+                        <h3>Andamento da Obra</h3>
 
-                <div className={styles.projects}>
-                    <div className={styles.projectsContent}>
-                        <h3>Projetos e aprovações</h3>
-
-                        <div className={styles.projectsItems}>
-                            <ProjectItem 
-                                status={true}
+                        <div className={styles.constructionsProgress}>
+                            <ProgressBar 
+                                title= {'PROJETOS'}
+                                progress={35}
                             />
-                            <ProjectItem 
-                                status={true}
+                            <ProgressBar 
+                                title= {'SERVIÇOS INICIAIS'}
+                                progress={70}
                             />
-                            <ProjectItem 
-                                status={true}
+                            <ProgressBar 
+                                title= {'ESCAVAÇÕES'}
+                                progress={40}
                             />
-                            <ProjectItem 
-                                status={false}
+                            <ProgressBar 
+                                title= {'REBOCO'}
+                                progress={80}
                             />
-                            <ProjectItem 
-                                status={false}
+                            <ProgressBar 
+                                title= {'CONTRAPISO'}
+                                progress={0}
+                            />
+                            <ProgressBar 
+                                title= {'ESQUADRIAS'}
+                                progress={5}
+                            />
+                            <ProgressBar 
+                                title= {'COBERTURAS'}
+                                progress={50}
+                            />
+                            <ProgressBar 
+                                title= {'PAVIMENTAÇÃO'}
+                                progress={1}
+                            />
+                            <ProgressBar 
+                                title= {'LIMPEZA'}
+                                progress={20}
                             />
                         </div>
                     </div>

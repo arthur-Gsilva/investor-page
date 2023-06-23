@@ -15,7 +15,9 @@ export const ProjectItem = ({ status }: Props) => {
             
             <div className={styles.projectInfo}>
                 <h6>Meio Ambiente - DANC</h6>
-                <p>status: {status ? 'Concluído' : 'Pendente'}</p>
+                <p style={{color: status ? "green" : "#D4605D"}}>
+                    status: {status ? 'Concluído' : 'Pendente'}
+                </p>
             </div>
         </div>
     )

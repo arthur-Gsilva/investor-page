@@ -7,4 +7,13 @@
 
 .iconArea{
     color: #ccc;
+    font-size: 1.5rem;
+}
+
+.projectInfo h6{
+    font-size: 1.2rem;
+}
+
+.projectInfo p{
+
 }
