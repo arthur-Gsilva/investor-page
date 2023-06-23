@@ -14,43 +14,13 @@ export const Documents = ({ title }: Props) => {
                 <summary>{title}</summary>
 
                 <div className={styles.downloadArea}>
-                <div className={styles.downloadItem}>
-                    <p>
-                        <ImDownload3 />
-                        <span>Arquivo de download</span>
-                    </p>
+                    <div className={styles.downloadItem}>
+                        <p>
+                            <ImDownload3 />
+                            <span>Contrato Unidade 10</span>
+                        </p>
+                    </div>
                 </div>
-                <div className={styles.downloadItem}>
-                    <p>
-                        <ImDownload3 />
-                        <span>Arquivo de download</span>
-                    </p>
-                </div>
-                <div className={styles.downloadItem}>
-                    <p>
-                        <ImDownload3 />
-                        <span>Arquivo de download</span>
-                    </p>
-                </div>
-                <div className={styles.downloadItem}>
-                    <p>
-                        <ImDownload3 />
-                        <span>Arquivo de download</span>
-                    </p>
-                </div>
-                <div className={styles.downloadItem}>
-                    <p>
-                        <ImDownload3 />
-                        <span>Arquivo de download</span>
-                    </p>
-                </div>
-                <div className={styles.downloadItem}>
-                    <p>
-                        <ImDownload3 />
-                        <span>Arquivo de download</span>
-                    </p>
-                </div>
-            </div>
             </details>
 
 

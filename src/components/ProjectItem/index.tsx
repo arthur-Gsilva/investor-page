@@ -3,10 +3,11 @@ import styles from './styles.module.css'
 import { AiOutlineCheckCircle } from 'react-icons/ai'
 
 type Props = {
-    status: boolean
+    status: boolean,
+    title: string
 }
 
-export const ProjectItem = ({ status }: Props) => {
+export const ProjectItem = ({ status, title }: Props) => {
     return(
         <div className={styles.container}>
             <div className={styles.iconArea} style={{color: status ? '#D4605D' : '#ccc'}}>
@@ -14,7 +15,7 @@ export const ProjectItem = ({ status }: Props) => {
             </div>
             
             <div className={styles.projectInfo}>
-                <h6>Meio Ambiente - DANC</h6>
+                <h6>{title}</h6>
                 <p style={{color: status ? "green" : "#D4605D"}}>
                     status: {status ? 'Concluído' : 'Pendente'}
                 </p>

@@ -70,23 +70,87 @@ const Login = () => {
                         <div className={styles.projectsItems}>
                             <ProjectItem 
                                 status={true}
+                                title={"Meio Ambiente - DANC"}
                             />
                             <ProjectItem 
                                 status={true}
+                                title={"Projeto Arquitetónico"}
                             />
                             <ProjectItem 
                                 status={true}
+                                title={"Viabilidade da água e esgotos"}
                             />
                             <ProjectItem 
                                 status={false}
+                                title={"Corte de árvores"}
                             />
                             <ProjectItem 
                                 status={false}
+                                title={"Projetos Engenharia"}
                             />
                         </div>
                     </div>
                 </div>
                
+                <div className={styles.finance}>
+                    <div className={styles.financeContent}>
+                            <h3>Situação Financeira</h3>
+                            <p>dados financeiros até abril/2023</p>
+
+                            <div className={styles.tableContainer}>
+                                <p>FLUXO DE CAIXA DO EMPREENDIMENTO </p>
+
+                                <div className={styles.table}>
+                                    <FinanceTable />
+                                </div>
+                            </div>
+                    </div>
+                </div> 
+
+                <div className={styles.constructions}>
+                    <div className={styles.constructionsContent}>
+                        <h3>Andamento da Obra</h3>
+
+                        <div className={styles.constructionsProgress}>
+                            <ProgressBar 
+                                title= {'PROJETOS'}
+                                progress={35}
+                            />
+                            <ProgressBar 
+                                title= {'SERVIÇOS INICIAIS'}
+                                progress={70}
+                            />
+                            <ProgressBar 
+                                title= {'ESCAVAÇÕES'}
+                                progress={40}
+                            />
+                            <ProgressBar 
+                                title= {'REBOCO'}
+                                progress={80}
+                            />
+                            <ProgressBar 
+                                title= {'CONTRAPISO'}
+                                progress={0}
+                            />
+                            <ProgressBar 
+                                title= {'ESQUADRIAS'}
+                                progress={5}
+                            />
+                            <ProgressBar 
+                                title= {'COBERTURAS'}
+                                progress={50}
+                            />
+                            <ProgressBar 
+                                title= {'PAVIMENTAÇÃO'}
+                                progress={1}
+                            />
+                            <ProgressBar 
+                                title= {'LIMPEZA'}
+                                progress={20}
+                            />
+                        </div>
+                    </div>
+                </div>
 
                 <div className={styles.immobileImages}>
                     <div className={styles.imagesContent}>
@@ -138,67 +202,6 @@ const Login = () => {
                     
                 </div>
 
-                <div className={styles.constructions}>
-                    <div className={styles.constructionsContent}>
-                        <h3>Andamento da Obra</h3>
-
-                        <div className={styles.constructionsProgress}>
-                            <ProgressBar 
-                                title= {'PROJETOS'}
-                                progress={35}
-                            />
-                            <ProgressBar 
-                                title= {'SERVIÇOS INICIAIS'}
-                                progress={70}
-                            />
-                            <ProgressBar 
-                                title= {'ESCAVAÇÕES'}
-                                progress={40}
-                            />
-                            <ProgressBar 
-                                title= {'REBOCO'}
-                                progress={80}
-                            />
-                            <ProgressBar 
-                                title= {'CONTRAPISO'}
-                                progress={0}
-                            />
-                            <ProgressBar 
-                                title= {'ESQUADRIAS'}
-                                progress={5}
-                            />
-                            <ProgressBar 
-                                title= {'COBERTURAS'}
-                                progress={50}
-                            />
-                            <ProgressBar 
-                                title= {'PAVIMENTAÇÃO'}
-                                progress={1}
-                            />
-                            <ProgressBar 
-                                title= {'LIMPEZA'}
-                                progress={20}
-                            />
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className={styles.finance}>
-                    <div className={styles.financeContent}>
-                            <h3>Situação Financeira</h3>
-                            <p>dados financeirso até abril/2023</p>
-
-                            <div className={styles.tableContainer}>
-                                <p>FLUXO DE CAIXA DO EMPREENDIMENTO </p>
-
-                                <div className={styles.table}>
-                                    <FinanceTable />
-                                </div>
-                            </div>
-                    </div>
-                </div>
-
                 <div className={styles.payment}>
                     <div className={styles.paymentContent}>
                         <Extract title={"Extratos de Pagamentos da Unidade"}/>
@@ -208,7 +211,6 @@ const Login = () => {
 
                 <div className={styles.documents}>
                     <div className={styles.documentsArea}>
-                        <Documents title={'Contrato'}/>
                         <Documents title={'Documentos do empreendimento'}/>
                         <Documents title={'Downloads'}/>
                     </div>

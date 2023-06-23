@@ -32,30 +32,20 @@ export const Footer = () => {
                 </div>
 
                 <div className={styles.footerReservations}>
-                    <h5>Central de Reservas</h5>
+                    <h5>Contato do Investidor</h5>
 
                     <div className={styles.footerContacts}>
                         <div className={styles.footerContact}>
-                            <h6>Sou hóspede:</h6>
                             <div className={styles.contact}>
                                 <BsWhatsapp className={styles.contactIcon}/>
-                                <p>+55 (00) 9999-9999</p>
+                                <p>+55 48 9201-7097</p>
                             </div>
                         </div>
 
                         <div className={styles.footerContact}>
-                            <h6>Sou proprietário:</h6>
-                            <div className={styles.contact}>
-                                <BsWhatsapp className={styles.contactIcon}/>
-                                <p>+55 (00) 9999-9999</p>
-                            </div>
                             <div className={styles.contact}>
                                 <SlEnvolopeLetter className={styles.contactIcon}/>
-                                <p>contato@email.com</p>
-                            </div>
-                            <div className={styles.contact}>
-                                <FiMapPin className={styles.contactIcon}/>
-                                <p>Rua tal de tal lugar - 999</p>
+                                <p>ri@seazone.com.br</p>
                             </div>
                         </div>
                         
