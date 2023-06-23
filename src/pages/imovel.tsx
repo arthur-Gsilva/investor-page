@@ -28,7 +28,7 @@ const Login = () => {
                 <div className={styles.immobileInfo}>
                     <div className={styles.banner}>
                         <div className={styles.bannerInfo}>
-                            <h1>IMÓVEL SPOT</h1>
+                            <h1>IMÓVEL SPOT</h1>                      
                             <p>Previsão de entrega: outubro/2025</p>
                         </div>
                     </div>
@@ -37,19 +37,19 @@ const Login = () => {
                         <div className={styles.timelineContent}>
 
                             <div className={styles.times}>
-                                <h3>Cronograma geral</h3>
+                                <h3>Cronograma Geral</h3>
 
                                 <div className={styles.time}>
-                                    Agosto 2022 - <br /> <span>Lançamento do Empreendimento</span>
+                                    Agosto 2022  <br /> <span>Lançamento do Empreendimento</span>
                                 </div>
                                 <div className={styles.time}>
-                                    Fevereiro 2023 - <br /> <span>Fechamento do grupo de investidores</span>
+                                    Fevereiro 2023  <br /> <span>Fechamento do grupo de investidores</span>
                                 </div>
                                 <div className={styles.time}>
-                                    Outubro 2023 - <br /> <span>Alvará de Construção e início das obras</span>
+                                    Outubro 2023  <br /> <span>Alvará de Construção e início das obras</span>
                                 </div>
                                 <div className={styles.time}>
-                                    Outubro 2023 - <br /> <span>Conclusão das obras e Protocolo de Habite-se</span>
+                                    Outubro 2023  <br /> <span>Conclusão das obras e Protocolo de Habite-se</span>
                                 </div>
                             </div>
 

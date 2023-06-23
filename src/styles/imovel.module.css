@@ -1,23 +1,23 @@
 
 
 .immobileInfo{
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: #121D42;
     padding-top: 3px;
+    
 }
 
-
 .banner{
-    flex: 1;
+    min-height: calc(60vh - 60px);
     background-image: url('/images/imovel.jpg');
     background-position: center;
     background-size: cover;
 }
 .bannerInfo{
     background-color: rgba(0, 0, 0, .5);
-    height: 100%;
+    min-height: calc(60vh - 60px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,7 +26,7 @@
 
 .bannerInfo p{
     color: #fff;
-    transform: translateY(80px);
+    transform: translateY(120px);
 }
 
 .bannerInfo h1{
@@ -34,31 +34,40 @@
     color: #D4605D;
 }
 
-.timeline{
-    flex: 1;
-}
 
 .timelineContent{
     padding: 20px;
 }
 
+.times{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .times h3{
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 1.7rem;
 }
 
 .time{
     color: #D4605D;
-    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 .time span{
     color: #fff;
+    font-size: 1.5rem;
 }
 
 .timeObservation{
     color: #D4605D;
-    
+    margin-top: 20px;
 }
 
 /* CONSTRUCTIONS */
